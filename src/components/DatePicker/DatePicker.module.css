@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  width: 60%;
+  overflow-y: auto;
+  height: 80vh;
+  margin: 0 1.5rem 0 0;
+  box-shadow: 3px 3px 0px white;
+}
+
+.heading {
+  display: flex;
+  align-self: center;
+  padding-top: 0.5rem;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.Date {
+  align-self: center;
+  padding: 1rem;
+  justify-self: center;
+}
+
+.Date label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Date input {
+  margin-left: 1rem;
+  width: 10rem;
+  height: 2rem;
+  background-color: #151a42;
+  color: white;
+  font-size: 15px;
+  padding-left: 0.6rem;
+}
+
+.button {
+  align-self: center;
+  justify-self: center;
+  padding-top: 2rem;
+}
+
+.button button {
+  padding: 0.7rem 1.8rem;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #000338;
+  color: white;
+  cursor: pointer;
+}
+
+.error {
+  padding: 1rem 5rem;
+  justify-self: center;
+  align-self: center;
+  border: 1px solid rgb(51, 9, 9);
+  background-color: rgb(180, 76, 76);
+}

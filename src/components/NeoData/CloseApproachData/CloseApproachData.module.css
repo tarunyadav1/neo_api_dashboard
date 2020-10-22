@@ -1,0 +1,55 @@
+.container {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 1rem 2rem;
+  padding: 1rem 1rem 1rem 1rem;
+  height: 100vh;
+}
+
+.closeHeading {
+  font-size: 20px;
+}
+
+.displayData {
+  height: 12rem;
+  overflow-y: auto;
+  margin-top: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: gray white;
+}
+
+.displayData ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.displayData li {
+  margin: 1rem 0;
+}
+
+.singleData {
+  margin: 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid gray;
+}
+
+.displayData::-webkit-scrollbar {
+  width: 12px;
+}
+
+.displayData::-webkit-scrollbar-track {
+  background: #4854b8;
+  border-radius: 5px;
+}
+
+.displayData::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20px;
+  border: 3px solid gray;
+}
+
+.singleData {
+  margin: 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid gray;
+}

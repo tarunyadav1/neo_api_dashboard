@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  width: 40%;
+  overflow-y: auto;
+  height: 80vh;
+  margin: 0 2rem;
+  box-shadow: 3px 3px 0px white;
+}
+
+.heading {
+  display: flex;
+  align-self: center;
+  padding-top: 0.5rem;
+  font-size: 30px;
+  font-weight: 400;
+}
+.searchDate {
+  margin-left: 19rem;
+  font-size: 15px;
+  padding-top: 0.6rem;
+  cursor: pointer;
+}
+
+.spinner {
+  justify-self: center;
+  align-self: center;
+}
+
+.error {
+  align-self: center;
+  background-color: #dd4242;
+  margin: 1rem;
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid rgb(165, 75, 75);
+}

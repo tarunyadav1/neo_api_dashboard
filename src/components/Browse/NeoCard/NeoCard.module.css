@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  margin: 1rem 1.5rem;
+  box-shadow: 2px 2px 0 white;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.container:hover {
+  background-color: #415a94;
+  border: 2px solid white;
+  transform: scale(1.05) translateY(-0.5rem);
+  box-shadow: 4px 4px 0 white;
+  transition: box-shadow 0.2s;
+  transition: 0.15s;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.heart {
+  align-self: center;
+  padding-top: 1rem;
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+.nameId {
+  background-color: #000338;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.diameter {
+  margin-top: 1rem;
+  background-color: #000338;
+
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.image img {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid gray;
+  border-radius: 9999px;
+  padding: 0.7rem;
+  background-color: #000338;
+}
+
+.active {
+  background-color: #415a94;
+  border: 2px solid white;
+  transform: scale(1.05) translateY(-0.5rem);
+  box-shadow: 4px 4px 0 white;
+  transition: box-shadow 0.2s;
+  transition: 0.15s;
+}

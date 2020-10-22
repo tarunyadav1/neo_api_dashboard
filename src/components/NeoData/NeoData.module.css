@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  width: 60%;
+  overflow-y: auto;
+  height: 80vh;
+  margin: 0 1.5rem 0 0;
+  box-shadow: 3px 3px 0px white;
+}
+
+.heading {
+  align-self: center;
+}
+
+.orbitalData {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 1rem 2rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.orbitalHeading {
+  font-size: 20px;
+}
+
+.displayData {
+  height: 9rem;
+  overflow-y: auto;
+  margin-top: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: gray white;
+}
+
+.singleData {
+  margin: 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid gray;
+}
+
+.displayData::-webkit-scrollbar {
+  width: 12px;
+}
+
+.displayData::-webkit-scrollbar-track {
+  background: #4854b8;
+  border-radius: 5px;
+}
+
+.displayData::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20px;
+  border: 3px solid gray;
+}
